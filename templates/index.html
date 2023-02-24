@@ -1,0 +1,10 @@
+{{ define "content" }}
+<h1 style="text-align: center;">HELLO</h1>
+{{ if . }}
+<div style="margin: 3rem auto;">
+	<hr>
+	<h3 style="text-align: center;">{{ .Email.Value }}</h3>
+	<hr>
+</div>
+{{ end }}
+{{ end }}

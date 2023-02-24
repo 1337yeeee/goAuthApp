@@ -1,0 +1,47 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+a:hover:visited {
+	color: dodgerblue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+header {
+	display: flex;
+	padding: 5px 10px;
+	justify-content: space-between;
+}
+
+.signing {
+	display: flex;
+	margin-right: 3rem;
+}
+
+.signing div {
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+.login-form {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+
+.login-form label {
+	margin-right: 1rem;
+}

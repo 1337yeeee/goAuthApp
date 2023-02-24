@@ -1,0 +1,5 @@
+*.db
+tmp/
+go.mod
+go.sum
+.DS_Store
