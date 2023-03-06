@@ -3,11 +3,11 @@ package main
 import (
 	"net/http"
 
-	"movies_crud/data"
-	"movies_crud/structs"
-	singing "movies_crud/singingController"
-	cookie "movies_crud/coockiesController"
-	h "movies_crud/helper"
+	"golang_auth/data"
+	"golang_auth/structs"
+	singing "golang_auth/singingController"
+	cookie "golang_auth/coockiesController"
+	h "golang_auth/helper"
 )
 
 type User = structs.User
@@ -32,5 +32,5 @@ func main() {
 	mux.HandleFunc("/signup", singing.SignUpHandler)
 	mux.HandleFunc("/login", singing.SignInHandler)
 	mux.HandleFunc("/logout", singing.LogoutHandler)
-	http.ListenAndServe(":8080", mux)
+	http.ListenAndServe(":8000", mux)
 }

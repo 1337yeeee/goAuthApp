@@ -3,7 +3,7 @@ package data
 import (
 	"database/sql"
 	_ "github.com/mattn/go-sqlite3"
-	s "movies_crud/structs"
+	s "golang_auth/structs"
 	"fmt"
 )
 

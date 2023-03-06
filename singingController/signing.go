@@ -6,10 +6,10 @@ import (
 	"log"
 	"fmt"
 
-	"movies_crud/structs"
-	cookie "movies_crud/coockiesController"
-	h "movies_crud/helper"
-	"movies_crud/data"
+	"golang_auth/structs"
+	cookie "golang_auth/coockiesController"
+	h "golang_auth/helper"
+	"golang_auth/data"
 )
 
 type User = structs.User

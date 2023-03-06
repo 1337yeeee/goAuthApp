@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"fmt"
 
-	"movies_crud/data"
-	"movies_crud/structs"
+	"golang_auth/data"
+	"golang_auth/structs"
 )
 
 type User = structs.User
